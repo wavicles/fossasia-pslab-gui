@@ -307,7 +307,7 @@ class AppWindow(QtGui.QMainWindow, digitalScopeNoTrig.Ui_MainWindow,utilitiesCla
 
 		
 if __name__ == "__main__":
-	from PSL import interface
+	from PSL import sciencelab
 	app = QtGui.QApplication(sys.argv)
 	myapp = AppWindow(I=sciencelab.connect())
 	myapp.show()
